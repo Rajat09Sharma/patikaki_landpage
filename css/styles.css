@@ -447,8 +447,9 @@ a:hover,
 
 @media (max-width:1224px) {
     .title-btn {
-        margin-left: 0px;
+        margin-left: 5px;
         width: 300px;
+        font-size: larger;
     }
 
     .title-feature div {
