@@ -175,6 +175,10 @@ hr {
     font-size: small;
 }
 
+.btn-container{
+    text-align: center;
+}
+
 /* Features sections */
 
 #features {
@@ -447,7 +451,7 @@ a:hover,
 
 @media (max-width:1224px) {
     .title-btn {
-        margin-left: 5px;
+        margin-left: 0px;
         width: 300px;
         font-size: larger;
     }
