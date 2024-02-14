@@ -414,6 +414,8 @@ a:hover,
     background-color: #b2ac88;
     transition: bottom 0.5s ease-in-out;
     z-index: 9999;
+    border: 2px solid #fade5e;
+    color: #fade5e;
 }
 
 .form-container {
@@ -441,7 +443,7 @@ a:hover,
 }
 
 .slide-up-form i{
-    /* color: #b2ac88; */
+    color: black;
     position: absolute;
     right: 5px;
     top: 20px;
@@ -490,6 +492,9 @@ a:hover,
 
     .slide-up-form {
         width: 100%;
+    }
+    .btn-cr {
+        left: 33%;
     }
 }
 
