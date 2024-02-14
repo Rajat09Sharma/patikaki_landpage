@@ -8,13 +8,16 @@ function updateDownTimer(){
     const minutes=Math.floor(time/60);
     let seconds=time % 60;
     seconds=seconds<10?"0"+seconds:seconds;
+    if(time<1){
+      time=startingMinutes*60
+    }else{
+      time--;
+    }
     countDownTimerMinutes.innerHTML=minutes;
     countDownTimerSeconds.classList.toggle("seconds-color");
     countDownTimerSeconds.innerHTML=seconds;
-    time--;
-    if(time===10){
-        time=10;
-    }
+
+    console.log(time);
 }
 
 setInterval(updateDownTimer,1000);
